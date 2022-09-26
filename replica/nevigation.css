@@ -1,0 +1,53 @@
+body{
+    background-color: bisque;
+   color: brown;
+   font-family: cursive;
+}
+img{
+    height: 30%;
+    width: 70%;
+    position: relative;
+}
+p{
+    background-color: aquamarine;
+    color: red;
+}
+.firstp{
+    color: black;
+    font-style: italic;
+}
+.secondp{
+    margin: 30px;
+    border: 2px solid black;
+    padding: 30px;
+    color: blue;
+}
+#d1{
+    background-color: url('./Resort_replica_4/assets/bgimage.jpg');
+    width: 40%;
+    height: 30%;
+    color: white;
+}
+div{
+    color: darkblue;
+    background-color: chartreuse;
+    width: fit-content;
+}
+#d2{
+    height: 200px;
+    width: 300px;
+    background-image: linear-gradient(to left, green);
+}
+#d3{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: coral;
+    animation: infinite;
+    animation-duration: 5s;
+    animation-name: change_color;
+}
+@keyframes change_color{
+from{ background-color: coral;}
+to{ background-color: blueviolet;} 
+}
